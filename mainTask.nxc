@@ -1,0 +1,45 @@
+/* Main task manager */
+
+#define MAXVOL 7
+#define CAR_RADIU 0
+#define WHEEL_RADIU 0
+
+#define LEFT 0
+#define RIGHT 1
+
+mutex moveMutex;
+
+task rotate_left_motor(int power, int degrees){
+  RotateMotor(OUT_C, power, degrees);
+}
+
+task rotateRight(int degrees, int power){
+  RotateMotor(OUT_A, power, degrees);
+}
+
+inline int calculate_motor_degrees(int degrees){
+  
+  float car_length = 2*(3.14)*CAR_RADIU;
+  float wheel_length = 2*(3.14)*WHEEL_RADIU;
+  
+  int result = (car_length/wheel_length)/(degrees/360);
+  return result;
+}
+
+sub turn_cental_point(int degrees, int power, int direction){
+  int degrees_motor = calculate_motor_degrees(degrees);
+  if(direction == RIGHT){
+    Precedes(rotateLeft(power,degrees_motor),rotateRight(power, degrees_motor*(-1)));
+  } else {
+    Precedes(rotateLeft(power,degrees_motor(-1)),rotateRight(power, degrees_motor));
+  }
+}
+
+task play_roar(){
+  PlayFileEx("! GODZILLA.rso", MAXVOL, FALSE);
+}
+
+task main(){
+  // Task
+  turn_cental_point(90, 75, RIGHT);
+}
