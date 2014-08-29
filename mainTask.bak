@@ -1,7 +1,7 @@
 /* Main task manager */
 
 #define MAXVOL 7
-#define CAR_RADIU 2.16
+#define CAR_RADIU 0
 #define WHEEL_RADIU 0
 
 #define LEFT 0
@@ -19,8 +19,8 @@ task rotateRight(int degrees, int power){
 
 inline int calculate_motor_degrees(int degrees){
 
-  float car_length = 2*(PI)*CAR_RADIU;
-  float wheel_length = 2*(PI)*WHEEL_RADIU;
+  float car_length = 2*(3.14)*CAR_RADIU;
+  float wheel_length = 2*(3.14)*WHEEL_RADIU;
 
   int result = (car_length/wheel_length)/(degrees/360);
   return result;
