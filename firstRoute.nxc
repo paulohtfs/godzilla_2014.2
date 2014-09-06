@@ -1,13 +1,13 @@
 #include "godzilla_api.h"
 
 task main(){
-     move_forward(44);
-     turn_right(110);
-     move_forward(27);
-     move_forward(38);
-     turn_left(40);
-     move_forward(74);
-     turn_left(40);
-     move_forward(57);
+    move(44, MAX_POWER, FORWARD);
+    turn(110, MAX_POWER, TURN_RIGHT);
+    move(27, MAX_POWER, FORWARD);
+    move(38, MAX_POWER, FORWARD);
+    turn(40, MAX_POWER, TURN_LEFT);
+    move(74, MAX_POWER, FORWARD);
+    turn(40, MAX_POWER, TURN_LEFT);
+    move(57, MAX_POWER, FORWARD);
 }
 

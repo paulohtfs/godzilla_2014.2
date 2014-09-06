@@ -4,76 +4,49 @@
            of Godzilla.
 */
 
-#define WHEEL_DIAMETER 4.32 // Mesuared in centimeter.
-#define CAR_RADIUS 7.5      // Mesuared in centimeter.
-#define WHEEL_RADIUS 2.16   // Mesuared in centimeter.
-
 #define LOW_POWER 25
 #define MEDIUM_POWER 50
 #define HIGH_POWER 75
-#define MAXIMUM_POWER 100
+#define MAX_POWER 100
 
-#define MOTOR_LEFT OUT_A
-#define MOTOR_RIGHT OUT_B
-#define MOTOR_ARM OUT_B
-#define BOTH_MOTORS OUT_AC
+#define FORWARD 1
+#define BACKWARD -1
 
-mutex moveMutex;
+#define TURN_LEFT 1
+#define TURN_RIGHT -1
 
-const int COMPLETE_TURN = 360; // Measured in degrees.
-const int HALF_TURN = 180;     // Measured in degrees.
+const float CAR_RADIUS = 7.50;       // Measured in centimeter
+const float WHEEL_RADIUS = 2.16;
+const float WHEEL_DIAMETER = 4.32;   // Measured in centimeter
+
+const int COMPLETE_TURN = 360;      // Measured in degrees.
+const int HALF_TURN = 180;          // Measured in degrees.
+
+const int BOTH_MOTORS = OUT_AC;
+const int MOTOR_RIGHT = OUT_A;
+const int MOTOR_LEFT = OUT_C;
+const int MOTOR_ARM = OUT_B;
 
 const bool SYNCHRONIZED = true;
 const bool DESYNCHRONIZED = false;
 
-const bool STOP = true;
+const bool DO_STOP = true;
 const bool NOT_STOP = false;
 
-/* TODO: Comment for documentation to this function. */
-sub move_forward( int distance ) {
-    float quantity_rounds =
-          ( COMPLETE_TURN * distance )/ ( PI * WHEEL_DIAMETER );
-    
-    RotateMotor( BOTH_MOTORS, HIGH_POWER, quantity_rounds );
+/* Moves car forward or backward */
+sub move(const int distance,const int power,const int direction){
+  float amount_turns = 
+    ( COMPLETE_TURN * distance * direction )/ ( PI * WHEEL_DIAMETER );
+
+  RotateMotor( BOTH_MOTORS, power, amount_turns );
 }
 
 /* TODO: Comment for documentation to this function. */
-sub move_back( int distance ) {
-    float quantities_turns_wheel =
-          ( COMPLETE_TURN * distance * ( -1 ) )/ ( PI * WHEEL_DIAMETER );
+sub turn(const int angle,const int power,const int direction){
+  int car_arc = ( angle * PI * CAR_RADIUS )/ HALF_TURN; // Measured in centimeter
+  int amount_turns = 
+    ( HALF_TURN * car_arc )/ ( PI * WHEEL_RADIUS ); // Measured in centimeter
 
-    RotateMotor( BOTH_MOTORS, HIGH_POWER, quantities_turns_wheel );
-}
-
-/* TODO: Comment for documentation to this function. */
-sub turn_right( int angle ) {
-    int lc = ( angle * PI * CAR_RADIUS )/ HALF_TURN; // Measured in centimeter.
-    int degree2 = ( HALF_TURN * lc )/ ( PI * WHEEL_RADIUS );
-
-    RotateMotorEx( BOTH_MOTORS, HIGH_POWER, degree2, 100, SYNCHRONIZED, NOT_STOP );
-}
-
-/* TODO: Comment for documentation to this function. */
-sub turn_left( int angle ) {
-    int  lc = ( angle * PI * CAR_RADIUS )/ HALF_TURN; // Measured in centimeter.
-    int degree2 = ( HALF_TURN * lc )/ ( PI * WHEEL_RADIUS );
-
-    RotateMotorEx( BOTH_MOTORS, HIGH_POWER, degree2, -100, SYNCHRONIZED, NOT_STOP );
-}
-
-/* TODO: Comment for documentation to this function. */
-task rotate_wheel_right() {
-     Acquire( moveMutex );
-     RotateMotor( MOTOR_RIGHT, HIGH_POWER, 550 );
-
-     Release( moveMutex );
-}
-
-/* TODO: Comment for documentation to this function. */
-task rotate_wheel_left() {
-     Acquire( moveMutex );
-     RotateMotor( MOTOR_LEFT, HIGH_POWER, -550 );
-
-     Release( moveMutex );
+  RotateMotorEx( BOTH_MOTORS, power, amount_turns, 100 * direction, SYNCHRONIZED, NOT_STOP );
 }
 
