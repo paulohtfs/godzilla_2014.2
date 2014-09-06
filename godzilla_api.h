@@ -61,3 +61,19 @@ sub turn_left( int angle ) {
     RotateMotorEx( BOTH_MOTORS, HIGH_POWER, degree2, -100, SYNCHRONIZED, NOT_STOP );
 }
 
+/* TODO: Comment for documentation to this function. */
+task rotate_wheel_right() {
+     Acquire( moveMutex );
+     RotateMotor( MOTOR_RIGHT, HIGH_POWER, 550 );
+
+     Release( moveMutex );
+}
+
+/* TODO: Comment for documentation to this function. */
+task rotate_wheel_left() {
+     Acquire( moveMutex );
+     RotateMotor( MOTOR_LEFT, HIGH_POWER, -550 );
+
+     Release( moveMutex );
+}
+
