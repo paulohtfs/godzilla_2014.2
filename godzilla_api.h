@@ -45,3 +45,19 @@ sub move_back( int distance ) {
     RotateMotor( BOTH_MOTORS, HIGH_POWER, quantities_turns_wheel );
 }
 
+/* TODO: Comment for documentation to this function. */
+sub turn_right( int angle ) {
+    int lc = ( angle * PI * CAR_RADIUS )/ HALF_TURN; // Measured in centimeter.
+    int degree2 = ( HALF_TURN * lc )/ ( PI * WHEEL_RADIUS );
+
+    RotateMotorEx( BOTH_MOTORS, HIGH_POWER, degree2, 100, SYNCHRONIZED, NOT_STOP );
+}
+
+/* TODO: Comment for documentation to this function. */
+sub turn_left( int angle ) {
+    int  lc = ( angle * PI * CAR_RADIUS )/ HALF_TURN; // Measured in centimeter.
+    int degree2 = ( HALF_TURN * lc )/ ( PI * WHEEL_RADIUS );
+
+    RotateMotorEx( BOTH_MOTORS, HIGH_POWER, degree2, -100, SYNCHRONIZED, NOT_STOP );
+}
+
