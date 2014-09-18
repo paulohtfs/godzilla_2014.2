@@ -70,7 +70,7 @@ sub turn( const int angle, const int power, const int direction ){
 
 /* Moves the arm of the robot. This moves has a direction: up or down.
    <p>
-   @param angle: the angle that the robot should turn. It is measured in degrees.
+   @param angle
    @param power: the power on the move will be made.
    @param direction: movimentod the direction of the robot.
                      Can be forward or backward.

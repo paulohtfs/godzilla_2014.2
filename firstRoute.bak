@@ -5,15 +5,15 @@ task main(){
     // First Mission
     move( 44, HIGH_POWER, FORWARD );
     Wait(500);
-    turn(105, HIGH_POWER, TURN_RIGHT );
+    turn(100, HIGH_POWER, TURN_RIGHT );
     Wait(500);
     move( 65, HIGH_POWER, FORWARD );
     Wait(500);
-    turn(25, HIGH_POWER, TURN_LEFT );
+    turn(30, HIGH_POWER, TURN_LEFT );
     Wait(500);
     move( 74, HIGH_POWER, FORWARD );
     Wait(500);
-    turn(25, HIGH_POWER, TURN_LEFT );
+    turn(30, HIGH_POWER, TURN_LEFT );
     Wait(500);
     move( 62, HIGH_POWER, FORWARD );
     Wait(500);
