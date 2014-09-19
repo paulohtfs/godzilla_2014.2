@@ -2,35 +2,26 @@
 
 task main(){
     // First Mission
-    move( 46, HIGH_POWER, FORWARD );
-    Wait(500);
-    turn(90, HIGH_POWER, TURN_RIGHT );
-    Wait(500);
-    move( 65, MEDIUM_POWER, FORWARD );
-    Wait(500);
-    turn(30, MEDIUM_POWER, TURN_LEFT );
-    Wait(500);
+    move( 46, HIGH_POWER, FORWARD );      //
+    Wait( 500 );
+    turn( 90, HIGH_POWER, TURN_RIGHT );   //
+    Wait( 500 );
+    move( 65, MEDIUM_POWER, FORWARD );    //
+    Wait( 500 );
+    turn( 30, MEDIUM_POWER, TURN_LEFT );
+    Wait( 500 );
     move( 74, HIGH_POWER, FORWARD );
-    Wait(500);
-    //turn(20, HIGH_POWER, TURN_LEFT );
-    //Wait(500);
+    Wait( 500 );
+    turn( 20, MEDIUM_POWER, TURN_RIGHT );
+    Wait( 500 );
     move( 67, HIGH_POWER, FORWARD );
-    Wait(500);
-
-    // Buildings
-    turn( 25, HIGH_POWER, TURN_LEFT );
-    Wait(500);
-    move( 60, HIGH_POWER, BACKWARD );
-    Wait(500);
-    turn( 135, HIGH_POWER, TURN_RIGHT );
-    Wait(500);
-    move( 10, HIGH_POWER, BACKWARD );
-    Wait(500);
-    turn( 90, HIGH_POWER, TURN_RIGHT );
-    Wait(500);
-    move( 38, MAX_POWER, BACKWARD );
-
-    // Go to the red area
-    move( 90, HIGH_POWER, FORWARD );
+    Wait( 500 );
+    
+    // Go to the Red Area
+    move( 20, HIGH_POWER, BACKWARD );
+    Wait( 500 );
+    turn( 80, MEDIUM_POWER, TURN_RIGHT );
+    Wait( 500 );
+    move( 85, HIGH_POWER, FORWARD );
 }
 
