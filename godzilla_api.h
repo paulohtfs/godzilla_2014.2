@@ -25,10 +25,10 @@ const float WHEEL_DIAMETER = 4.32;   // Measured in centimeter.
 const int COMPLETE_TURN = 360;      // Measured in degrees.
 const int HALF_TURN = 180;          // Measured in degrees.
 
-const int BOTH_MOTORS = OUT_AC;
-const int MOTOR_RIGHT = OUT_A;
+const int BOTH_MOTORS = OUT_BC;
+const int MOTOR_RIGHT = OUT_B;
 const int MOTOR_LEFT = OUT_C;
-const int MOTOR_ARM = OUT_B;
+const int MOTOR_ARM = OUT_A;
 
 const bool SYNCHRONIZED = true;
 const bool DESYNCHRONIZED = false;
@@ -36,7 +36,9 @@ const bool DESYNCHRONIZED = false;
 const bool DO_STOP = true;
 const bool NOT_STOP = false;
 
-const int ERROR = 20;
+const int P = 40;
+const int I = 40;
+const int D = 90;
 
 /* Moves car forward or backward.
    <p>
@@ -65,7 +67,7 @@ sub turn( const int angle, const int power, const int direction ){
   int amount_turns = 
     ( HALF_TURN * car_arc )/ ( PI * WHEEL_RADIUS ); // Measured in centimeter
 
-  RotateMotorEx( BOTH_MOTORS, power, ERROR + amount_turns, 100 * direction, SYNCHRONIZED, DO_STOP);
+  RotateMotorExPID( BOTH_MOTORS, power, amount_turns, 100 * direction, SYNCHRONIZED, DO_STOP, P, I, D);
 }
 
 /* Moves the arm of the robot. This moves has a direction: up or down.
