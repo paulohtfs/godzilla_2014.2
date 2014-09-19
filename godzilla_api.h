@@ -37,8 +37,8 @@ const bool DO_STOP = true;
 const bool NOT_STOP = false;
 
 const int P = 40;
-const int I = 40;
-const int D = 90;
+const int INTEGRATIVE = 40;
+const int DERIVATIVE = 90;
 
 /* Moves car forward or backward.
    <p>
@@ -67,7 +67,8 @@ sub turn( const int angle, const int power, const int direction ){
   int amount_turns = 
     ( HALF_TURN * car_arc )/ ( PI * WHEEL_RADIUS ); // Measured in centimeter
 
-  RotateMotorExPID( BOTH_MOTORS, power, amount_turns, 100 * direction, SYNCHRONIZED, DO_STOP, P, I, D);
+  RotateMotorExPID( BOTH_MOTORS, power, amount_turns, 100 * direction,
+                    SYNCHRONIZED, DO_STOP, P, INTEGRATIVE, DERIVATIVE );
 }
 
 /* Moves the arm of the robot. This moves has a direction: up or down.
