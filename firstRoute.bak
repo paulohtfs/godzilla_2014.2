@@ -1,9 +1,13 @@
 #include "godzilla_api.h"
 
 task main(){
+     /* Primary Position on the Base
+     
+        8,5 cm Back to the inner bouder
+        15,0 cm Left to the inner bouder
+      */
     // First Mission
-    move( 46, HIGH_POWER, FORWARD );
-    Wait( 500 );
+    move( 43, HIGH_POWER, FORWARD );
     turn( 90, HIGH_POWER, TURN_RIGHT );
     Wait( 500 );
     move( 65, MEDIUM_POWER, FORWARD );
@@ -12,7 +16,7 @@ task main(){
     Wait( 500 );
     move( 74, HIGH_POWER, FORWARD );
     Wait( 500 );
-    turn( 20, HIGH_POWER, TURN_RIGHT );
+    turn( 20, HIGH_POWER, TURN_LEFT );
     Wait( 500 );
     move( 67, HIGH_POWER, FORWARD );
     Wait( 500 );
@@ -22,7 +26,7 @@ task main(){
     Wait( 500 );
     turn( 30, HIGH_POWER, TURN_RIGHT );
     Wait( 500 );
-    move( 75, HIGH_POWER, FORWARD );
+    move( 76, HIGH_POWER, FORWARD );
     Wait( 500 );
     
     // Third Misson
@@ -30,12 +34,17 @@ task main(){
     Wait( 500 );
     turn( 90, HIGH_POWER, TURN_RIGHT );
     Wait( 500 );
-    move( 40, MAX_POWER, BACKWARD );
+    move( 43, MAX_POWER, BACKWARD );
     Wait( 500 );
     
     // Go to the Red Area
     turn( 45, HIGH_POWER, TURN_LEFT );
     Wait( 500 );
     move( 80, MAX_POWER, FORWARD );
+    Wait( 500 );
+    turn( 30, HIGH_POWER, TURN_LEFT );
+    Wait( 500 );
+    move( 15, MAX_POWER, FORWARD );
+
 }
 
