@@ -1,0 +1,41 @@
+/* TOTAL: 135 pts */
+
+#include "godzilla_api.h"
+
+task main(){
+     /* Primary Position on the Base
+        1. Alinhado ao logo da LEGO pela esquerda
+        2. Enconstando na borda superior da base
+      */
+
+     int ADJUSTMENT = 5;
+     
+    // Supply Truck and Ambulance's Mission( 50 pts )
+    move_arm(180, MEDIUM_POWER, UP);
+    move( 47, HIGH_POWER, FORWARD );
+    turn( 90 - ADJUSTMENT, HIGH_POWER, TURN_RIGHT );
+    move( 65, MEDIUM_POWER, FORWARD );
+    turn( 25 - ADJUSTMENT, MEDIUM_POWER, TURN_LEFT );
+    move( 74, HIGH_POWER, FORWARD );
+    turn( 50 - ADJUSTMENT, MAX_POWER, TURN_LEFT );
+    move( 67, HIGH_POWER, FORWARD );
+    
+    // Evacuation Sign's Mission( 30 pts )
+    move( 100, HIGH_POWER, BACKWARD );
+    move_arm( 90, MEDIUM_POWER, DOWN );
+    turn( 30 + ADJUSTMENT, HIGH_POWER, TURN_RIGHT );
+    move( 77, HIGH_POWER, FORWARD );
+    
+    // Base Isolation Test's Mission( 30 pts )
+    move( 30, HIGH_POWER, BACKWARD );
+    turn( 90 + ADJUSTMENT, HIGH_POWER, TURN_RIGHT );
+    move( 32, MAX_POWER, BACKWARD );
+    
+    // Go to the Red Area( 25 pts )
+    turn( 45 + ADJUSTMENT, HIGH_POWER, TURN_LEFT );
+    Wait( 500 );
+    move( 80, MAX_POWER, FORWARD );
+    Wait( 500 );
+    turn( 360 + ADJUSTMENT, MAX_POWER, TURN_LEFT );
+}
+

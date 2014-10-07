@@ -1,0 +1,5 @@
+#include "godzilla_api.h"
+
+task main() {
+     move_arm(180, MEDIUM_POWER, UP);
+}
