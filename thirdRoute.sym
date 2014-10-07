@@ -1,0 +1,241 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__constValf3P141593	10	0	0	4	1
+1	__rotate_angle6	6	1	4	4	5
+2	__rotateMutex2	9	0	8	4	4
+3	WHEEL_DIAMETER	10	0	12	4	1
+4	__signed_stack_001move_arm	6	1	16	4	2
+5	__signed_stack_001move	6	1	20	4	6
+6	__DF0move	10	1	24	4	2
+7	__D0move_arm	6	1	28	4	2
+8	__rotate_theAngle6	5	1	32	4	2
+9	__rotateMutex1	9	0	36	4	4
+10	__D0move	6	1	40	4	2
+11	__rotateMutex0	9	0	44	4	4
+12	BOTH_MOTORS	4	0	48	2	1
+13	COMPLETE_TURN	4	0	50	2	1
+14	__rotate_RotCount6	4	1	52	2	4
+15	__rotate_OldRotCount6	4	1	54	2	2
+16	MOTOR_ARM	4	1	56	2	1
+17	__move_arm_7qG2_angle_7qG2_000	4	1	58	2	2
+18	__move_7qG2_amount_turns_7qG2_000	4	1	60	2	2
+19	__move_arm_7qG2_direction_7qG2_000	4	1	62	2	2
+20	__move_arm_7qG2_power_7qG2_000	4	1	64	2	2
+21	__move_7qG2_power_7qG2_000	4	1	66	2	3
+22	__move_7qG2_distance_7qG2_000	4	1	68	2	3
+23	__move_7qG2_direction_7qG2_000	4	1	70	2	3
+24	__constVal4	2	0	72	1	1
+25	__constVal5	2	0	73	1	1
+26	__constVal6	2	0	74	1	1
+27	__constVal3	2	0	75	1	2
+28	__constVal96	2	0	76	1	2
+29	__move_return	1	1	77	1	4
+30	____initialize_global_data_return	1	1	78	1	3
+31	__move_arm_return	1	1	79	1	3
+32	__rotate_theOM6	1	1	80	1	7
+33	__rotate_theUF6	1	1	81	1	6
+34	__rotate_theRM6	1	1	82	1	4
+35	__rotate_theRVP6	1	1	83	1	3
+36	__rotate_theRS6	1	1	84	1	3
+37	__rotate_firstPort6	1	1	85	1	5
+38	__rotate_power6	1	1	86	1	5
+39	__rotate_sync6	1	1	87	1	3
+40	__rotate_turnpct6	2	1	88	1	4
+41	__rotate_stop6	1	1	89	1	3
+42	__constVal1	2	0	90	1	5
+43	__constVal32	2	0	91	1	5
+44	__constVal0	2	1	92	1	9
+45	____RotateMotorVar_return	1	1	93	1	4
+46	____RotateMotor6_return	1	1	94	1	3
+47	__rotate_theRVD6	1	1	95	1	3
+48	__rotate_theRVI6	1	1	96	1	3
+49	__rotate_rs6	1	1	97	1	10
+50	__rotate_theTurnPct6	2	1	98	1	4
+51	__rotate_thePower6	2	1	99	1	4
+52	__OUT_AC	7	0	100	4	1
+53	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+54	__OUT_AB	7	0	102	4	1
+55	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+56	__OUT_BC	7	0	104	4	1
+57	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+58	__rotate_ports6	7	0	106	4	13
+59	__rotate_ports6.__rotate_ports6_type	1	0	0	1	0
+60	__OUT_ABC	7	0	108	4	1
+61	__OUT_ABC.__OUT_ABC_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	11	0	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	12	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	11	2	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	11	2	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	12	2		set __move_7qG2_distance_7qG2_000, 76
+0	11	5	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	11	5	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	12	5		set __move_7qG2_power_7qG2_000, 75
+0	11	8	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	11	8	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	12	8		set __move_7qG2_direction_7qG2_000, 1
+0	11	11	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	12	11	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	13	11		subcall move, __move_return
+0	12	13	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	12	13	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	13	13		set __move_arm_7qG2_angle_7qG2_000, 180
+0	12	16	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	12	16	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	13	16		set __move_arm_7qG2_power_7qG2_000, 50
+0	12	19	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	12	19	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	13	19		set __move_arm_7qG2_direction_7qG2_000, -1
+0	12	22	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	13	22	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	14	22		subcall move_arm, __move_arm_return
+0	13	24	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	13	24	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	14	24		set __move_7qG2_distance_7qG2_000, 76
+0	13	27	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	13	27	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	14	27		set __move_7qG2_power_7qG2_000, 75
+0	13	30	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	13	30	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	14	30		set __move_7qG2_direction_7qG2_000, -1
+0	13	33	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	16	33	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	17	33		subcall move, __move_return
+0	16	35	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+0	17	35		exit -1, -1
+1	4794	0		brtst 4, __rotate_Done6, __rotate_angle6
+1	4795	3		sign __rotate_thePower6, __rotate_angle6
+1	4796	6		abs __rotate_theAngle6, __rotate_angle6
+1	4797	9		mul __rotate_thePower6, __rotate_thePower6, __rotate_power6
+1	4799	13		set __rotate_theUF6, 23
+1	4800	16		brtst 4, __rotate_NoSync6, __rotate_sync6
+1	4801	19		set __rotate_theOM6, 7
+1	4802	22		set __rotate_theRM6, 2
+1	4803	25		mov __rotate_theTurnPct6, __rotate_turnpct6
+1	4804	27		brtst 4, __rotate_Start6, __rotate_theTurnPct6
+1	4805	30		add __rotate_theUF6, __rotate_theUF6, __constVal32
+1	4806	34		jmp __rotate_Start6
+1	4808	36		set __rotate_theOM6, 3
+1	4809	39		set __rotate_theRM6, 0
+1	4810	42		set __rotate_theTurnPct6, 0
+1	4812	45		set __rotate_theRS6, 32
+1	4813	48		setout __rotate_ports6, 1, __rotate_theOM6, 8, __rotate_theRM6, 5, __rotate_theAngle6, 6, __rotate_theRS6, 10, __rotate_theRVP6, 11, __rotate_theRVI6, 12, __rotate_theRVD6, 2, __rotate_thePower6, 7, __rotate_turnpct6, 0, __rotate_theUF6
+1	4816	71		index __rotate_firstPort6, __rotate_ports6, 65535
+1	4818	75		getout __rotate_power6, __rotate_firstPort6, 2
+1	4819	79		brtst 4, __rotate_doneRunning6, __rotate_power6
+1	4820	82		getout __rotate_rs6, __rotate_firstPort6, 6
+1	4821	86		brcmp 4, __rotate_Running6, __rotate_rs6, __constVal32
+1	4823	90		brtst 4, __rotate_Reset6, __rotate_stop6
+1	4825	93		set __rotate_theOM6, 7
+1	4826	96		set __rotate_theUF6, 7
+1	4827	99		setout __rotate_ports6, 1, __rotate_theOM6, 8, __constVal1, 6, __rotate_theRS6, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF6
+1	4829	114		getout __rotate_RotCount6, __rotate_firstPort6, 14
+1	4831	118		mov __rotate_OldRotCount6, __rotate_RotCount6
+1	4832	120		wait 50
+1	4834	122		getout __rotate_RotCount6, __rotate_firstPort6, 14
+1	4835	126		brcmp 5, __rotate_Stabilize6, __rotate_OldRotCount6, __rotate_RotCount6
+1	4836	130		set __rotate_theOM6, 4
+1	4837	133		setout __rotate_ports6, 8, __rotate_theRM6, 6, __constVal0, 1, __rotate_theOM6, 0, __constVal1
+1	4840	144		brtst 4, __rotate_Done6, __rotate_theTurnPct6
+1	4841	147		setout __rotate_ports6, 0, __constVal32
+1	4843	152		subret ____RotateMotor6_return
+2	4854	0		arrsize __rotate_rs6, __rotate_ports6
+2	4855	3		brcmp 1, __rmvCallSub, __rotate_rs6, __constVal1
+2	4857	7		index __rotate_rs6, __rotate_ports6, 65535
+2	4858	11		brcmp 0, __rmvCallSub, __rotate_rs6, __constVal3
+2	4859	15		brcmp 1, __rmvExit, __rotate_rs6, __constVal6
+2	4861	19		mov __rotate_ports6, __OUT_AB
+2	4862	21		brcmp 4, __rmvCallSub, __rotate_rs6, __constVal3
+2	4863	25		mov __rotate_ports6, __OUT_AC
+2	4864	27		brcmp 4, __rmvCallSub, __rotate_rs6, __constVal4
+2	4865	31		mov __rotate_ports6, __OUT_BC
+2	4866	33		brcmp 4, __rmvCallSub, __rotate_rs6, __constVal5
+2	4867	37		mov __rotate_ports6, __OUT_ABC
+2	4869	39		subcall __RotateMotor6, ____RotateMotor6_return
+2	4871	41		subret ____RotateMotorVar_return
+3	52	0	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	52	0	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	52	0	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	52	0	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	53	0		mul __signed_stack_001move, COMPLETE_TURN, __move_7qG2_distance_7qG2_000
+3	52	4	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	52	4	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	52	4	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	53	4		mul __signed_stack_001move, __signed_stack_001move, __move_7qG2_direction_7qG2_000
+3	52	8	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	52	8	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	52	8	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	52	8	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	52	8	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	53	8		mul __DF0move, __constValf3P141593, WHEEL_DIAMETER
+3	54	12	#line 54 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	55	12		div __move_7qG2_amount_turns_7qG2_000, __signed_stack_001move, __DF0move
+3	54	16	#line 54 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	54	16	#line 54 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	55	16		mov __signed_stack_001move, __move_7qG2_power_7qG2_000
+3	54	18	#line 54 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	54	18	#line 54 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	55	18		mov __D0move, __move_7qG2_amount_turns_7qG2_000
+3	55	20	#line 55 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	56	20	#pragma macro 22
+3	56	20		acquire __rotateMutex0
+3	56	21		acquire __rotateMutex1
+3	56	22		acquire __rotateMutex2
+3	56	23		arrbuild __rotate_ports6, BOTH_MOTORS
+3	56	27		mov __rotate_power6, __signed_stack_001move
+3	56	29		mov __rotate_angle6, __D0move
+3	56	31		mov __rotate_turnpct6, __constVal0
+3	56	33		mov __rotate_sync6, __constVal0
+3	56	35		mov __rotate_stop6, __constVal1
+3	56	37		mov __rotate_theRVP6, __constVal32
+3	56	39		mov __rotate_theRVI6, __constVal0
+3	56	41		mov __rotate_theRVD6, __constVal96
+3	56	43		subcall __RotateMotorVar, ____RotateMotorVar_return
+3	56	45		release __rotateMutex2
+3	56	46		release __rotateMutex1
+3	56	47		release __rotateMutex0
+3	6064	48	#line 6064 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	55	48	#line 55 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	64	48	#line 64 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+3	65	48		subret __move_return
+4	81	0	#line 81 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+4	82	0		mov __signed_stack_001move_arm, __move_arm_7qG2_power_7qG2_000
+4	81	2	#line 81 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+4	81	2	#line 81 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+4	81	2	#line 81 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+4	81	2	#line 81 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+4	81	2	#line 81 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+4	82	2		mul __D0move_arm, __move_arm_7qG2_angle_7qG2_000, __move_arm_7qG2_direction_7qG2_000
+4	82	6	#line 82 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+4	83	6	#pragma macro 22
+4	83	6		acquire __rotateMutex0
+4	83	7		acquire __rotateMutex1
+4	83	8		acquire __rotateMutex2
+4	83	9		arrbuild __rotate_ports6, MOTOR_ARM
+4	83	13		mov __rotate_power6, __signed_stack_001move_arm
+4	83	15		mov __rotate_angle6, __D0move_arm
+4	83	17		mov __rotate_turnpct6, __constVal0
+4	83	19		mov __rotate_sync6, __constVal0
+4	83	21		mov __rotate_stop6, __constVal1
+4	83	23		mov __rotate_theRVP6, __constVal32
+4	83	25		mov __rotate_theRVI6, __constVal0
+4	83	27		mov __rotate_theRVD6, __constVal96
+4	83	29		subcall __RotateMotorVar, ____RotateMotorVar_return
+4	83	31		release __rotateMutex2
+4	83	32		release __rotateMutex1
+4	83	33		release __rotateMutex0
+4	6234	34	#line 6234 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+4	82	34	#line 82 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+4	88	34	#line 88 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
+4	89	34		subret __move_arm_return
+5	19	0	#line 19 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc"
+5	20	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc
+1	__RotateMotor6	38	NXTDefs.h
+2	__RotateMotorVar	192	NXTDefs.h
+3	move	235	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h
+4	move_arm	285	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h
+5	__initialize_global_data	321	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\thirdRoute.nxc

@@ -1,0 +1,20 @@
+/* TOTAL: 66 pts */
+
+#include "godzilla_api.h"
+
+task main(){
+     /* Primary position on the Base
+        1. Garra esquerda no segundo pininho
+     */
+
+
+
+    move(58, HIGH_POWER, FORWARD);
+    turn(75, MEDIUM_POWER, TURN_LEFT);
+    move(30, HIGH_POWER , FORWARD);
+    move_arm(180 , MEDIUM_POWER, UP);
+    move(30, HIGH_POWER, BACKWARD);
+    turn(75, MEDIUM_POWER, TURN_RIGHT);
+    move(61, HIGH_POWER, BACKWARD);
+
+}

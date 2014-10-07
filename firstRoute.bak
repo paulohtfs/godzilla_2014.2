@@ -1,50 +1,37 @@
+/* TOTAL: 135 pts */
+
 #include "godzilla_api.h"
 
 task main(){
      /* Primary Position on the Base
-     
-        8,5 cm Back to the inner bouder
-        15,0 cm Left to the inner bouder
+        1. Alinhado ao logo da LEGO pela esquerda
+        2. Enconstando na borda superior da base
       */
-    // First Mission
+    // Supply Truck and Ambulance's Mission( 50 pts )
     move( 43, HIGH_POWER, FORWARD );
     turn( 90, HIGH_POWER, TURN_RIGHT );
-    Wait( 500 );
     move( 65, MEDIUM_POWER, FORWARD );
-    Wait( 500 );
-    turn( 30, MEDIUM_POWER, TURN_LEFT );
-    Wait( 500 );
+    turn( 25, MEDIUM_POWER, TURN_LEFT );
     move( 74, HIGH_POWER, FORWARD );
-    Wait( 500 );
-    turn( 20, HIGH_POWER, TURN_LEFT );
-    Wait( 500 );
+    turn( 50, MAX_POWER, TURN_LEFT );
     move( 67, HIGH_POWER, FORWARD );
-    Wait( 500 );
     
-    // Second Misson
+    // Evacuation Sign's Mission( 30 pts )
     move( 100, HIGH_POWER, BACKWARD );
-    Wait( 500 );
+    move_arm( 30, MEDIUM_POWER, DOWN );
     turn( 30, HIGH_POWER, TURN_RIGHT );
-    Wait( 500 );
-    move( 76, HIGH_POWER, FORWARD );
-    Wait( 500 );
+    move( 77, HIGH_POWER, FORWARD );
     
-    // Third Misson
+    // Base Isolation Test's Mission( 30 pts )
     move( 30, HIGH_POWER, BACKWARD );
-    Wait( 500 );
     turn( 90, HIGH_POWER, TURN_RIGHT );
-    Wait( 500 );
-    move( 43, MAX_POWER, BACKWARD );
-    Wait( 500 );
+    move( 32, MAX_POWER, BACKWARD );
     
-    // Go to the Red Area
+    // Go to the Red Area( 25 pts )
     turn( 45, HIGH_POWER, TURN_LEFT );
     Wait( 500 );
     move( 80, MAX_POWER, FORWARD );
     Wait( 500 );
-    turn( 30, HIGH_POWER, TURN_LEFT );
-    Wait( 500 );
-    move( 15, MAX_POWER, FORWARD );
-
+    turn( 360, MAX_POWER, TURN_LEFT );
 }
 

@@ -1,0 +1,32 @@
+/* Total: 85 pts or 95 pts */
+
+#include "godzilla_api.h"
+
+task main(){
+     /* Primary Position on the Base
+
+        8,5 cm Back to the inner bouder
+        15,0 cm Left to the inner bouder
+      */
+
+      // Tsunami's Mission( 20 pts )
+      move_arm( 120, HIGH_POWER, UP );/*
+      move( 60, HIGH_POWER, FORWARD );
+      move_arm( 30, LOW_POWER, DOWN );
+      
+      // Airplane's Mission( 20-30 pts )
+      turn( 80, HIGH_POWER, TURN_RIGHT );
+      move( 20, HIGH_POWER, FORWARD );
+      
+      // House's Mission( 25 pts )
+      move( 50, HIGH_POWER, BACKWARD );
+      turn( 80, HIGH_POWER, TURN_LEFT );
+      move( 75, HIGH_POWER, FORWARD );
+      turn( 40, HIGH_POWER, TURN_LEFT );
+      move( 30, HIGH_POWER, FORWARD );
+      turn( 90, HIGH_POWER, TURN_LEFT );
+      move( 30, HIGH_POWER, FORWARD );
+      turn( 70, HIGH_POWER, TURN_LEFT );
+      move( 80, HIGH_POWER, FORWARD );
+      */
+}

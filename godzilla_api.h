@@ -79,7 +79,7 @@ sub turn( const int angle, const int power, const int direction ){
                      Can be forward or backward.
 */
 sub move_arm( const int angle, const int power, const int direction ) {
-  RotateMotorEx( MOTOR_ARM, power, angle, 100 * direction, DESYNCHRONIZED, NOT_STOP );
+  RotateMotor( MOTOR_ARM, power, angle * direction );
 }
 
 /* Read the distance between the ultrasonic sensor and the object.
