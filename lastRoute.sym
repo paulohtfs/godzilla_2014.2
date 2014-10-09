@@ -21,75 +21,70 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 18	__signed_stack_006turn	6	1	72	4	2
 19	__float_stack_001turn	10	1	76	4	4
 20	__signed_stack_007turn	6	1	80	4	2
-21	__rotateMutex1	9	0	84	4	6
-22	__rotateMutex0	9	0	88	4	6
-23	__rotateMutex2	9	0	92	4	6
-24	__rotate_angle6	6	1	96	4	6
-25	__move_7qG2_amount_turns_7qG2_000	4	1	100	2	2
-26	__move_7qG2_direction_7qG2_000	4	1	102	2	10
-27	__turn_7qG2_angle_7qG2_000	4	1	104	2	8
-28	__constVal360	4	0	106	2	1
-29	__turn_7qG2_power_7qG2_000	4	1	108	2	8
-30	__move_7qG2_power_7qG2_000	4	1	110	2	10
-31	HALF_TURN	4	0	112	2	2
-32	COMPLETE_TURN	4	0	114	2	1
-33	BOTH_MOTORS	4	0	116	2	2
-34	__move_7qG2_distance_7qG2_000	4	1	118	2	10
-35	MOTOR_ARM	4	1	120	2	1
-36	__move_arm_7qG2_direction_7qG2_000	4	1	122	2	3
-37	__move_arm_7qG2_power_7qG2_000	4	1	124	2	3
-38	__move_arm_7qG2_angle_7qG2_000	4	1	126	2	3
+21	__rotate_angle6	6	1	84	4	6
+22	__rotateMutex2	9	0	88	4	6
+23	__rotateMutex1	9	0	92	4	6
+24	__rotateMutex0	9	0	96	4	6
+25	COMPLETE_TURN	4	0	100	2	1
+26	__move_7qG2_amount_turns_7qG2_000	4	1	102	2	2
+27	__constVal360	4	0	104	2	1
+28	__move_7qG2_direction_7qG2_000	4	1	106	2	10
+29	BOTH_MOTORS	4	0	108	2	2
+30	HALF_TURN	4	0	110	2	2
+31	MOTOR_ARM	4	1	112	2	1
+32	__move_7qG2_power_7qG2_000	4	1	114	2	10
+33	__move_7qG2_distance_7qG2_000	4	1	116	2	10
+34	__turn_7qG2_angle_7qG2_000	4	1	118	2	7
+35	__move_arm_7qG2_direction_7qG2_000	4	1	120	2	3
+36	__move_arm_7qG2_power_7qG2_000	4	1	122	2	3
+37	__rotate_RotCount6	4	1	124	2	4
+38	__main_7qG2_ADJUSTMENT_7qG2_000	4	1	126	2	2
 39	__rotate_OldRotCount6	4	1	128	2	2
-40	__rotate_RotCount6	4	1	130	2	4
-41	__main_7qG2_ADJUSTMENT_7qG2_000	4	1	132	2	8
+40	__turn_7qG2_direction_7qG2_000	4	1	130	2	7
+41	__turn_7qG2_power_7qG2_000	4	1	132	2	7
 42	__turn_7qG2_car_arc_7qG2_000	4	1	134	2	2
-43	__turn_7qG2_direction_7qG2_000	4	1	136	2	8
+43	__move_arm_7qG2_angle_7qG2_000	4	1	136	2	3
 44	__turn_7qG2_amount_turns_7qG2_000	4	1	138	2	2
-45	__constVal30	2	0	140	1	1
-46	__turn_return	1	1	141	1	9
-47	__constVal45	2	0	142	1	1
+45	__move_arm_return	1	1	140	1	4
+46	____initialize_global_data_return	1	1	141	1	3
+47	__turn_return	1	1	142	1	8
 48	__move_return	1	1	143	1	11
-49	__move_arm_return	1	1	144	1	4
-50	__constVal96	2	0	145	1	2
-51	__constVal25	2	0	146	1	1
-52	____initialize_global_data_return	1	1	147	1	3
-53	__constVal6	2	0	148	1	1
-54	__constVal3	2	0	149	1	2
-55	____RotateMotorVar_return	1	1	150	1	5
-56	__constVal4	2	0	151	1	1
-57	__constVal100	2	0	152	1	1
-58	__constVal90	2	0	153	1	2
-59	__constVal5	2	0	154	1	1
-60	____RotateMotor6_return	1	1	155	1	3
-61	__rotate_theRVD6	1	1	156	1	4
-62	__rotate_thePower6	2	1	157	1	4
-63	__rotate_rs6	1	1	158	1	10
-64	__rotate_theTurnPct6	2	1	159	1	4
-65	__constVal0	2	1	160	1	9
-66	__constVal1	2	0	161	1	5
-67	__constVal32	2	0	162	1	5
-68	__constVal50	2	0	163	1	1
-69	__rotate_stop6	1	1	164	1	4
-70	__rotate_turnpct6	2	1	165	1	5
-71	__rotate_theUF6	1	1	166	1	6
-72	__rotate_power6	1	1	167	1	6
-73	__rotate_firstPort6	1	1	168	1	5
-74	__rotate_sync6	1	1	169	1	4
-75	__rotate_theRVP6	1	1	170	1	4
-76	__rotate_theRVI6	1	1	171	1	4
-77	__rotate_theRS6	1	1	172	1	3
-78	__rotate_theOM6	1	1	173	1	7
-79	__rotate_theRM6	1	1	174	1	4
-80	__rotate_ports6	7	0	176	4	14
-81	__rotate_ports6.__rotate_ports6_type	1	0	0	1	0
-82	__OUT_AC	7	0	178	4	1
-83	__OUT_AC.__OUT_AC_type	1	0	0	1	0
-84	__OUT_BC	7	0	180	4	1
-85	__OUT_BC.__OUT_BC_type	1	0	0	1	0
-86	__OUT_ABC	7	0	182	4	1
-87	__OUT_ABC.__OUT_ABC_type	1	0	0	1	0
-88	__OUT_AB	7	0	184	4	1
-89	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+49	__constVal96	2	0	144	1	2
+50	__rotate_power6	1	1	145	1	6
+51	__constVal4	2	0	146	1	1
+52	__constVal6	2	0	147	1	1
+53	__constVal3	2	0	148	1	2
+54	__constVal100	2	0	149	1	1
+55	__rotate_theRVD6	1	1	150	1	4
+56	__constVal5	2	0	151	1	1
+57	__constVal1	2	0	152	1	5
+58	__constVal32	2	0	153	1	5
+59	__rotate_theTurnPct6	2	1	154	1	4
+60	____RotateMotorVar_return	1	1	155	1	5
+61	____RotateMotor6_return	1	1	156	1	3
+62	__constVal0	2	1	157	1	9
+63	__rotate_theRVI6	1	1	158	1	4
+64	__rotate_thePower6	2	1	159	1	4
+65	__rotate_stop6	1	1	160	1	4
+66	__rotate_rs6	1	1	161	1	10
+67	__rotate_firstPort6	1	1	162	1	5
+68	__rotate_sync6	1	1	163	1	4
+69	__rotate_turnpct6	2	1	164	1	5
+70	__rotate_theRS6	1	1	165	1	3
+71	__rotate_theRVP6	1	1	166	1	4
+72	__rotate_theRM6	1	1	167	1	4
+73	__rotate_theUF6	1	1	168	1	6
+74	__rotate_theOM6	1	1	169	1	7
+75	__OUT_AB	7	0	170	4	1
+76	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+77	__OUT_ABC	7	0	172	4	1
+78	__OUT_ABC.__OUT_ABC_type	1	0	0	1	0
+79	__rotate_ports6	7	0	174	4	14
+80	__rotate_ports6.__rotate_ports6_type	1	0	0	1	0
+81	__OUT_AC	7	0	176	4	1
+82	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+83	__OUT_BC	7	0	178	4	1
+84	__OUT_BC.__OUT_BC_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
 0	10	0	#line 10 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
@@ -123,233 +118,203 @@ Clump	Line	PC	Source
 0	16	25		subcall move, __move_return
 0	15	27	#line 15 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
 0	15	27	#line 15 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	15	27	#line 15 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	15	27	#line 15 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	15	27	#line 15 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	16	27		sub __turn_7qG2_angle_7qG2_000, __constVal90, __main_7qG2_ADJUSTMENT_7qG2_000
-0	15	31	#line 15 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	15	31	#line 15 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	16	31		set __turn_7qG2_power_7qG2_000, 75
-0	15	34	#line 15 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	15	34	#line 15 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	16	34		set __turn_7qG2_direction_7qG2_000, 1
-0	15	37	#line 15 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	16	37	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	17	37		subcall turn, __turn_return
-0	16	39	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	16	39	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	17	39		set __move_7qG2_distance_7qG2_000, 65
-0	16	42	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	16	42	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	17	42		set __move_7qG2_power_7qG2_000, 50
-0	16	45	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	16	45	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	17	45		set __move_7qG2_direction_7qG2_000, 1
-0	16	48	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	17	48	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	18	48		subcall move, __move_return
-0	17	50	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	17	50	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	17	50	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	17	50	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	17	50	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	18	50		sub __turn_7qG2_angle_7qG2_000, __constVal25, __main_7qG2_ADJUSTMENT_7qG2_000
-0	17	54	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	17	54	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	18	54		set __turn_7qG2_power_7qG2_000, 50
-0	17	57	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	17	57	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	18	57		set __turn_7qG2_direction_7qG2_000, -1
-0	17	60	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	16	27		set __turn_7qG2_angle_7qG2_000, 85
+0	15	30	#line 15 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	15	30	#line 15 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	16	30		set __turn_7qG2_power_7qG2_000, 75
+0	15	33	#line 15 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	15	33	#line 15 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	16	33		set __turn_7qG2_direction_7qG2_000, 1
+0	15	36	#line 15 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	16	36	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	17	36		subcall turn, __turn_return
+0	16	38	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	16	38	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	17	38		set __move_7qG2_distance_7qG2_000, 65
+0	16	41	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	16	41	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	17	41		set __move_7qG2_power_7qG2_000, 50
+0	16	44	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	16	44	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	17	44		set __move_7qG2_direction_7qG2_000, 1
+0	16	47	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	17	47	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	18	47		subcall move, __move_return
+0	17	49	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	17	49	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	18	49		set __turn_7qG2_angle_7qG2_000, 20
+0	17	52	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	17	52	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	18	52		set __turn_7qG2_power_7qG2_000, 50
+0	17	55	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	17	55	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	18	55		set __turn_7qG2_direction_7qG2_000, -1
+0	17	58	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	18	58	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	19	58		subcall turn, __turn_return
 0	18	60	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	19	60		subcall turn, __turn_return
-0	18	62	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	18	62	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	19	62		set __move_7qG2_distance_7qG2_000, 74
-0	18	65	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	18	65	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	19	65		set __move_7qG2_power_7qG2_000, 75
-0	18	68	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	18	68	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	19	68		set __move_7qG2_direction_7qG2_000, 1
-0	18	71	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	19	71	#line 19 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	20	71		subcall move, __move_return
-0	19	73	#line 19 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	19	73	#line 19 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	19	73	#line 19 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	19	73	#line 19 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	19	73	#line 19 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	20	73		sub __turn_7qG2_angle_7qG2_000, __constVal50, __main_7qG2_ADJUSTMENT_7qG2_000
-0	19	77	#line 19 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	19	77	#line 19 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	20	77		set __turn_7qG2_power_7qG2_000, 100
-0	19	80	#line 19 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	19	80	#line 19 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	20	80		set __turn_7qG2_direction_7qG2_000, -1
-0	19	83	#line 19 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	20	83	#line 20 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	21	83		subcall turn, __turn_return
-0	20	85	#line 20 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	20	85	#line 20 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	21	85		set __move_7qG2_distance_7qG2_000, 67
-0	20	88	#line 20 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	20	88	#line 20 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	21	88		set __move_7qG2_power_7qG2_000, 75
-0	20	91	#line 20 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	20	91	#line 20 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	21	91		set __move_7qG2_direction_7qG2_000, 1
-0	20	94	#line 20 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	23	94	#line 23 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	24	94		subcall move, __move_return
-0	23	96	#line 23 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	23	96	#line 23 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	24	96		set __move_7qG2_distance_7qG2_000, 100
-0	23	99	#line 23 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	23	99	#line 23 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	24	99		set __move_7qG2_power_7qG2_000, 75
-0	23	102	#line 23 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	23	102	#line 23 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	24	102		set __move_7qG2_direction_7qG2_000, -1
-0	23	105	#line 23 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	24	105	#line 24 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	25	105		subcall move, __move_return
-0	24	107	#line 24 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	24	107	#line 24 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	25	107		set __move_arm_7qG2_angle_7qG2_000, 90
-0	24	110	#line 24 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	24	110	#line 24 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	25	110		set __move_arm_7qG2_power_7qG2_000, 50
-0	24	113	#line 24 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	24	113	#line 24 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	25	113		set __move_arm_7qG2_direction_7qG2_000, -1
-0	24	116	#line 24 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	25	116	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	26	116		subcall move_arm, __move_arm_return
-0	25	118	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	25	118	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	25	118	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	25	118	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	25	118	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	26	118		add __turn_7qG2_angle_7qG2_000, __constVal30, __main_7qG2_ADJUSTMENT_7qG2_000
-0	25	122	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	25	122	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	26	122		set __turn_7qG2_power_7qG2_000, 75
-0	25	125	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	25	125	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	26	125		set __turn_7qG2_direction_7qG2_000, 1
-0	25	128	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	26	128	#line 26 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	27	128		subcall turn, __turn_return
-0	26	130	#line 26 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	26	130	#line 26 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	27	130		set __move_7qG2_distance_7qG2_000, 77
-0	26	133	#line 26 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	26	133	#line 26 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	27	133		set __move_7qG2_power_7qG2_000, 75
-0	26	136	#line 26 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	26	136	#line 26 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	27	136		set __move_7qG2_direction_7qG2_000, 1
-0	26	139	#line 26 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	29	139	#line 29 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	30	139		subcall move, __move_return
-0	29	141	#line 29 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	29	141	#line 29 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	30	141		set __move_7qG2_distance_7qG2_000, 30
-0	29	144	#line 29 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	29	144	#line 29 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	30	144		set __move_7qG2_power_7qG2_000, 75
-0	29	147	#line 29 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	29	147	#line 29 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	30	147		set __move_7qG2_direction_7qG2_000, -1
-0	29	150	#line 29 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	30	150	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	31	150		subcall move, __move_return
-0	30	152	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	30	152	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	30	152	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	30	152	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	30	152	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	31	152		add __turn_7qG2_angle_7qG2_000, __constVal90, __main_7qG2_ADJUSTMENT_7qG2_000
-0	30	156	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	30	156	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	31	156		set __turn_7qG2_power_7qG2_000, 75
-0	30	159	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	30	159	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	31	159		set __turn_7qG2_direction_7qG2_000, 1
-0	30	162	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	31	162	#line 31 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	32	162		subcall turn, __turn_return
-0	31	164	#line 31 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	31	164	#line 31 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	32	164		set __move_7qG2_distance_7qG2_000, 32
-0	31	167	#line 31 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	31	167	#line 31 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	32	167		set __move_7qG2_power_7qG2_000, 100
-0	31	170	#line 31 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	31	170	#line 31 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	32	170		set __move_7qG2_direction_7qG2_000, -1
-0	31	173	#line 31 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	34	173	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	35	173		subcall move, __move_return
-0	34	175	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	34	175	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	34	175	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	34	175	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	34	175	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	35	175		add __turn_7qG2_angle_7qG2_000, __constVal45, __main_7qG2_ADJUSTMENT_7qG2_000
-0	34	179	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	34	179	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	35	179		set __turn_7qG2_power_7qG2_000, 75
-0	34	182	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	34	182	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	35	182		set __turn_7qG2_direction_7qG2_000, -1
-0	34	185	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	35	185	#line 35 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	36	185		subcall turn, __turn_return
-0	35	187	#line 35 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	35	187	#line 35 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	36	187		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
-0	35	190	#line 35 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	7921	190	#line 7921 "NXCDefs.h"
-0	7922	190		wait 500
-0	7921	192	#line 7921 "NXCDefs.h"
-0	36	192	#line 36 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	36	192	#line 36 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	37	192		set __move_7qG2_distance_7qG2_000, 80
-0	36	195	#line 36 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	36	195	#line 36 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	37	195		set __move_7qG2_power_7qG2_000, 100
-0	36	198	#line 36 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	36	198	#line 36 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	37	198		set __move_7qG2_direction_7qG2_000, 1
-0	36	201	#line 36 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	37	201	#line 37 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	38	201		subcall move, __move_return
-0	37	203	#line 37 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	37	203	#line 37 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	38	203		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
-0	37	206	#line 37 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	7921	206	#line 7921 "NXCDefs.h"
-0	7922	206		wait 500
-0	7921	208	#line 7921 "NXCDefs.h"
-0	38	208	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	38	208	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	38	208	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	38	208	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	38	208	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	39	208		add __turn_7qG2_angle_7qG2_000, __constVal360, __main_7qG2_ADJUSTMENT_7qG2_000
-0	38	212	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	38	212	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	39	212		set __turn_7qG2_power_7qG2_000, 100
-0	38	215	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	38	215	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	39	215		set __turn_7qG2_direction_7qG2_000, -1
-0	38	218	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	39	218	#line 39 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	40	218		subcall turn, __turn_return
-0	39	220	#line 39 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
-0	40	220		exit -1, -1
+0	18	60	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	19	60		set __move_7qG2_distance_7qG2_000, 74
+0	18	63	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	18	63	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	19	63		set __move_7qG2_power_7qG2_000, 75
+0	18	66	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	18	66	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	19	66		set __move_7qG2_direction_7qG2_000, 1
+0	18	69	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	20	69	#line 20 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	21	69		subcall move, __move_return
+0	20	71	#line 20 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	20	71	#line 20 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	21	71		set __move_7qG2_distance_7qG2_000, 67
+0	20	74	#line 20 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	20	74	#line 20 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	21	74		set __move_7qG2_power_7qG2_000, 75
+0	20	77	#line 20 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	20	77	#line 20 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	21	77		set __move_7qG2_direction_7qG2_000, 1
+0	20	80	#line 20 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	23	80	#line 23 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	24	80		subcall move, __move_return
+0	23	82	#line 23 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	23	82	#line 23 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	24	82		set __move_7qG2_distance_7qG2_000, 100
+0	23	85	#line 23 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	23	85	#line 23 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	24	85		set __move_7qG2_power_7qG2_000, 75
+0	23	88	#line 23 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	23	88	#line 23 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	24	88		set __move_7qG2_direction_7qG2_000, -1
+0	23	91	#line 23 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	24	91	#line 24 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	25	91		subcall move, __move_return
+0	24	93	#line 24 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	24	93	#line 24 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	25	93		set __move_arm_7qG2_angle_7qG2_000, 90
+0	24	96	#line 24 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	24	96	#line 24 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	25	96		set __move_arm_7qG2_power_7qG2_000, 50
+0	24	99	#line 24 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	24	99	#line 24 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	25	99		set __move_arm_7qG2_direction_7qG2_000, -1
+0	24	102	#line 24 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	25	102	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	26	102		subcall move_arm, __move_arm_return
+0	25	104	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	25	104	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	26	104		set __turn_7qG2_angle_7qG2_000, 25
+0	25	107	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	25	107	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	26	107		set __turn_7qG2_power_7qG2_000, 75
+0	25	110	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	25	110	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	26	110		set __turn_7qG2_direction_7qG2_000, 1
+0	25	113	#line 25 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	26	113	#line 26 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	27	113		subcall turn, __turn_return
+0	26	115	#line 26 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	26	115	#line 26 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	27	115		set __move_7qG2_distance_7qG2_000, 77
+0	26	118	#line 26 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	26	118	#line 26 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	27	118		set __move_7qG2_power_7qG2_000, 75
+0	26	121	#line 26 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	26	121	#line 26 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	27	121		set __move_7qG2_direction_7qG2_000, 1
+0	26	124	#line 26 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	29	124	#line 29 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	30	124		subcall move, __move_return
+0	29	126	#line 29 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	29	126	#line 29 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	30	126		set __move_7qG2_distance_7qG2_000, 30
+0	29	129	#line 29 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	29	129	#line 29 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	30	129		set __move_7qG2_power_7qG2_000, 75
+0	29	132	#line 29 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	29	132	#line 29 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	30	132		set __move_7qG2_direction_7qG2_000, -1
+0	29	135	#line 29 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	30	135	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	31	135		subcall move, __move_return
+0	30	137	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	30	137	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	31	137		set __turn_7qG2_angle_7qG2_000, 85
+0	30	140	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	30	140	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	31	140		set __turn_7qG2_power_7qG2_000, 75
+0	30	143	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	30	143	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	31	143		set __turn_7qG2_direction_7qG2_000, 1
+0	30	146	#line 30 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	31	146	#line 31 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	32	146		subcall turn, __turn_return
+0	31	148	#line 31 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	31	148	#line 31 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	32	148		set __move_7qG2_distance_7qG2_000, 32
+0	31	151	#line 31 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	31	151	#line 31 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	32	151		set __move_7qG2_power_7qG2_000, 100
+0	31	154	#line 31 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	31	154	#line 31 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	32	154		set __move_7qG2_direction_7qG2_000, -1
+0	31	157	#line 31 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	34	157	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	35	157		subcall move, __move_return
+0	34	159	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	34	159	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	35	159		set __turn_7qG2_angle_7qG2_000, 40
+0	34	162	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	34	162	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	35	162		set __turn_7qG2_power_7qG2_000, 75
+0	34	165	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	34	165	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	35	165		set __turn_7qG2_direction_7qG2_000, -1
+0	34	168	#line 34 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	35	168	#line 35 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	36	168		subcall turn, __turn_return
+0	35	170	#line 35 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	35	170	#line 35 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	36	170		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	35	173	#line 35 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	7921	173	#line 7921 "NXCDefs.h"
+0	7922	173		wait 500
+0	7921	175	#line 7921 "NXCDefs.h"
+0	36	175	#line 36 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	36	175	#line 36 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	37	175		set __move_7qG2_distance_7qG2_000, 80
+0	36	178	#line 36 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	36	178	#line 36 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	37	178		set __move_7qG2_power_7qG2_000, 100
+0	36	181	#line 36 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	36	181	#line 36 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	37	181		set __move_7qG2_direction_7qG2_000, 1
+0	36	184	#line 36 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	37	184	#line 37 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	38	184		subcall move, __move_return
+0	37	186	#line 37 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	37	186	#line 37 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	38	186		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	37	189	#line 37 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	7921	189	#line 7921 "NXCDefs.h"
+0	7922	189		wait 500
+0	7921	191	#line 7921 "NXCDefs.h"
+0	38	191	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	38	191	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	38	191	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	38	191	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	38	191	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	39	191		add __turn_7qG2_angle_7qG2_000, __constVal360, __main_7qG2_ADJUSTMENT_7qG2_000
+0	38	195	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	38	195	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	39	195		set __turn_7qG2_power_7qG2_000, 100
+0	38	198	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	38	198	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	39	198		set __turn_7qG2_direction_7qG2_000, -1
+0	38	201	#line 38 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	39	201	#line 39 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	40	201		subcall turn, __turn_return
+0	39	203	#line 39 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc"
+0	40	203		exit -1, -1
 1	4794	0		brtst 4, __rotate_Done6, __rotate_angle6
 1	4795	3		sign __rotate_thePower6, __rotate_angle6
 1	4796	6		abs __rotate_theAngle6, __rotate_angle6
@@ -556,9 +521,9 @@ Clump	Line	PC	Source
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc
-1	__RotateMotor6	223	NXTDefs.h
-2	__RotateMotorVar	377	NXTDefs.h
-3	move	420	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h
-4	turn	470	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h
-5	move_arm	547	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h
-6	__initialize_global_data	583	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc
+1	__RotateMotor6	206	NXTDefs.h
+2	__RotateMotorVar	360	NXTDefs.h
+3	move	403	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h
+4	turn	453	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h
+5	move_arm	530	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h
+6	__initialize_global_data	566	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\lastRoute.nxc
