@@ -1,0 +1,48 @@
+/* TOTAL: 135 pts */
+
+#include "godzilla_api.h"
+
+task main(){
+     /* Primary Position on the Base
+        Alinhar
+      */
+     
+    // Supply Truck and Ambulance's Mission( 50 pts )
+    move_arm(180, HIGH_POWER, UP);
+    move( 47, HIGH_POWER, FORWARD );
+    turn( 85, HIGH_POWER, TURN_RIGHT );
+    move( 65, MEDIUM_POWER, FORWARD );
+    turn( 20, MEDIUM_POWER, TURN_LEFT );
+    move( 141, HIGH_POWER, FORWARD );
+    
+    // Evacuation Sign's Mission( 30 pts )
+    move(17,HIGH_POWER, BACKWARD);
+    turn(110,HIGH_POWER, TURN_RIGHT);
+    move(30,HIGH_POWER,BACKWARD);
+    move(20, HIGH_POWER, FORWARD);
+    turn(85, HIGH_POWER, TURN_RIGHT);
+    move(25, HIGH_POWER, FORWARD);
+    turn(85, HIGH_POWER, TURN_LEFT);
+    move(30, HIGH_POWER, FORWARD);
+    turn(85, HIGH_POWER, TURN_LEFT);
+    move_arm(180, HIGH_POWER, DOWN);
+    move(10, HIGH_POWER, FORWARD);
+    
+    // Evacuation Sign's Mission( 30 pts )
+    /*
+    move( 100, HIGH_POWER, BACKWARD );
+    move_arm( 180, HIGH_POWER, DOWN );
+    turn( 35, HIGH_POWER, TURN_RIGHT );
+    move( 68, HIGH_POWER, FORWARD );
+    
+    // Base Isolation Test's Mission( 30 pts )
+    move( 30, HIGH_POWER, BACKWARD );
+    turn( 85, HIGH_POWER, TURN_RIGHT );
+    move( 32, MAX_POWER, BACKWARD );
+    
+    // Go to the Red Area( 25 pts )
+    turn( 60, HIGH_POWER, TURN_LEFT );
+    move( 80, MAX_POWER, FORWARD );
+    */
+}
+
