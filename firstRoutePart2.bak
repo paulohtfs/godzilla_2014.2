@@ -10,11 +10,11 @@ task main(){
 
 
     move(58, HIGH_POWER, FORWARD);
-    turn(75, MEDIUM_POWER, TURN_LEFT);
-    move(30, HIGH_POWER , FORWARD);
+    turn(80, MEDIUM_POWER, TURN_LEFT);
+    move(32, HIGH_POWER , FORWARD);
     move_arm(180 , MEDIUM_POWER, UP);
-    move(30, HIGH_POWER, BACKWARD);
-    turn(75, MEDIUM_POWER, TURN_RIGHT);
-    move(61, HIGH_POWER, BACKWARD);
+    move(34, HIGH_POWER, BACKWARD);
+    turn(70, MEDIUM_POWER, TURN_RIGHT);
+    move(60, HIGH_POWER, BACKWARD);
 
 }

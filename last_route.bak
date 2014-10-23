@@ -2,10 +2,10 @@
 
 #include "godzilla_api.h"
 
+/* Primary Position on the Base
+   Alinhamento W-E: pino 9
+*/
 task main(){
-     /* Primary Position on the Base
-        Alinhamento W-E: 9 linha
-      */
      
     // Supply Truck and Ambulance's Mission( 50 pts )
     move_arm(180, HIGH_POWER, UP);
@@ -28,12 +28,13 @@ task main(){
     // Base Isolation Test's Mission( 30 pts )
     move(37, HIGH_POWER, FORWARD);
     turn(85, HIGH_POWER, TURN_LEFT);
-    move(50, HIGH_POWER, BACKWARD);
+    move(50, MAX_POWER, BACKWARD);
     
-    /*
+
     // Go to the Red Area( 25 pts )
-    turn( 60, HIGH_POWER, TURN_LEFT );
-    move( 80, MAX_POWER, FORWARD );
-    */
+    move(35, HIGH_POWER, FORWARD);
+    turn( 45, HIGH_POWER, TURN_LEFT );
+    move( 60, MAX_POWER, FORWARD );
+
 }
 

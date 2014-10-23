@@ -64,58 +64,58 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 61	__OUT_ABC.__OUT_ABC_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	10	0	#line 10 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	11	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	10	2	#line 10 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	10	2	#line 10 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	11	2		set __move_arm_7qG2_angle_7qG2_000, 180
-0	10	5	#line 10 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	10	5	#line 10 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	11	5		set __move_arm_7qG2_power_7qG2_000, 50
-0	10	8	#line 10 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	10	8	#line 10 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	11	8		set __move_arm_7qG2_direction_7qG2_000, 1
-0	10	11	#line 10 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	11	11	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	12	11		subcall move_arm, __move_arm_return
-0	11	13	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	11	13	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	12	13		set __move_7qG2_distance_7qG2_000, 76
-0	11	16	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	11	16	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	12	16		set __move_7qG2_power_7qG2_000, 75
-0	11	19	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	11	19	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	12	19		set __move_7qG2_direction_7qG2_000, 1
-0	11	22	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	12	22	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	13	22		subcall move, __move_return
-0	12	24	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	12	24	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	13	24		set __move_arm_7qG2_angle_7qG2_000, 180
-0	12	27	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	12	27	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	13	27		set __move_arm_7qG2_power_7qG2_000, 50
-0	12	30	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	12	30	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	13	30		set __move_arm_7qG2_direction_7qG2_000, -1
-0	12	33	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	13	33	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	14	33		subcall move_arm, __move_arm_return
-0	13	35	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	13	35	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	14	35		set __move_7qG2_distance_7qG2_000, 76
-0	13	38	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	13	38	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	14	38		set __move_7qG2_power_7qG2_000, 75
-0	13	41	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	13	41	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	14	41		set __move_7qG2_direction_7qG2_000, -1
-0	13	44	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	16	44	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	17	44		subcall move, __move_return
-0	16	46	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-0	17	46		exit -1, -1
+0	11	0	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	12	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	11	2	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	11	2	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	12	2		set __move_arm_7qG2_angle_7qG2_000, 180
+0	11	5	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	11	5	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	12	5		set __move_arm_7qG2_power_7qG2_000, 50
+0	11	8	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	11	8	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	12	8		set __move_arm_7qG2_direction_7qG2_000, 1
+0	11	11	#line 11 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	12	11	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	13	11		subcall move_arm, __move_arm_return
+0	12	13	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	12	13	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	13	13		set __move_7qG2_distance_7qG2_000, 76
+0	12	16	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	12	16	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	13	16		set __move_7qG2_power_7qG2_000, 75
+0	12	19	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	12	19	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	13	19		set __move_7qG2_direction_7qG2_000, 1
+0	12	22	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	13	22	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	14	22		subcall move, __move_return
+0	13	24	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	13	24	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	14	24		set __move_arm_7qG2_angle_7qG2_000, 180
+0	13	27	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	13	27	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	14	27		set __move_arm_7qG2_power_7qG2_000, 50
+0	13	30	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	13	30	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	14	30		set __move_arm_7qG2_direction_7qG2_000, -1
+0	13	33	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	16	33	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	17	33		subcall move_arm, __move_arm_return
+0	16	35	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	16	35	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	17	35		set __move_7qG2_distance_7qG2_000, 76
+0	16	38	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	16	38	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	17	38		set __move_7qG2_power_7qG2_000, 75
+0	16	41	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	16	41	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	17	41		set __move_7qG2_direction_7qG2_000, -1
+0	16	44	#line 16 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	17	44	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	18	44		subcall move, __move_return
+0	17	46	#line 17 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+0	18	46		exit -1, -1
 1	4794	0		brtst 4, __rotate_Done6, __rotate_angle6
 1	4795	3		sign __rotate_thePower6, __rotate_angle6
 1	4796	6		abs __rotate_theAngle6, __rotate_angle6
@@ -241,13 +241,13 @@ Clump	Line	PC	Source
 4	82	34	#line 82 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
 4	88	34	#line 88 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h"
 4	89	34		subret __move_arm_return
-5	19	0	#line 19 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc"
-5	20	0		subret ____initialize_global_data_return
+5	20	0	#line 20 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc"
+5	21	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc
+0	main	0	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc
 1	__RotateMotor6	49	NXTDefs.h
 2	__RotateMotorVar	203	NXTDefs.h
 3	move	246	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h
 4	move_arm	296	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\.\godzilla_api.h
-5	__initialize_global_data	332	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\firstRoute.nxc
+5	__initialize_global_data	332	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_1.nxc

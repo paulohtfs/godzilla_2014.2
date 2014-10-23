@@ -1,0 +1,18 @@
+/* TOTAL: 55 */
+
+#include "godzilla_api.h"
+
+task main(){
+     move_arm(180,HIGH_POWER, UP);
+     move(58, HIGH_POWER, FORWARD);
+     move_arm(160, MAX_POWER, DOWN);
+     move_arm(160, MAX_POWER, UP);
+     turn( 55, HIGH_POWER, TURN_LEFT);
+     move_arm(160, MAX_POWER, DOWN);
+     move(10, MAX_POWER, FORWARD);
+     move_arm(180, MAX_POWER, UP);
+     turn(120, HIGH_POWER, TURN_LEFT);
+     move_arm(180, MAX_POWER, DOWN);
+     move(50, MAX_POWER, FORWARD);
+
+}

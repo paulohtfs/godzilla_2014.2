@@ -1,0 +1,22 @@
+/* TOTAL: 66 pts */
+
+#include "godzilla_api.h"
+
+/* Primary position on the Base
+   Alinhamento N-S: pino 6
+*/
+
+task main(){
+
+     // Go to Orange Area ( 93 pts)
+    move(56, HIGH_POWER, FORWARD);
+    turn(80, MEDIUM_POWER, TURN_LEFT);
+    move(34, HIGH_POWER , FORWARD);
+    move_arm(180 , MEDIUM_POWER, UP);
+    
+    // Go to Base
+    move(34, HIGH_POWER, BACKWARD);
+    turn(80, MEDIUM_POWER, TURN_RIGHT);
+    move(60, HIGH_POWER, BACKWARD);
+    move_arm(180 , MEDIUM_POWER, DOWN);
+}

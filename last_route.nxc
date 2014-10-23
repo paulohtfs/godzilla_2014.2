@@ -2,10 +2,11 @@
 
 #include "godzilla_api.h"
 
+/* Primary Position on the Base
+   Alinhamento W-E: pino 9
+*/
+
 task main(){
-     /* Primary Position on the Base
-        Alinhamento W-E: 9 linha
-      */
      
     // Supply Truck and Ambulance's Mission( 50 pts )
     move_arm(180, HIGH_POWER, UP);
