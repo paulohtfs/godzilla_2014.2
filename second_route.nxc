@@ -1,4 +1,4 @@
-/* TOTAL: 55 */
+ /* TOTAL: 55 */
 
 #include "godzilla_api.h"
 
@@ -10,18 +10,19 @@ task main(){
 
      // Go to Airplane Mission (20 or 30 pts)
      move_arm(180,HIGH_POWER, UP);
-     move(58, HIGH_POWER, FORWARD);
+     move(56, HIGH_POWER, FORWARD);
+     turn( 15, HIGH_POWER, TURN_RIGHT);
      move_arm(160, MAX_POWER, DOWN);
      move_arm(160, MAX_POWER, UP);
-     turn( 60, HIGH_POWER, TURN_LEFT);
+     turn( 57, HIGH_POWER, TURN_LEFT);
      move_arm(160, MAX_POWER, DOWN);
      
      // Go to Tsunami Mission (30 pts)
-     move(12, MAX_POWER, FORWARD);
+     move(11, MAX_POWER, FORWARD);
      move_arm(180, MAX_POWER, UP);
      
      // Go to Base
-     turn(120, HIGH_POWER, TURN_LEFT);
+     turn(110, HIGH_POWER, TURN_LEFT);
      move_arm(180, MAX_POWER, DOWN);
-     move(50, MAX_POWER, FORWARD);
+     move(55, MAX_POWER, FORWARD);
 }

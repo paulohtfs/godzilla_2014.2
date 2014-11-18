@@ -100,7 +100,7 @@ Clump	Line	PC	Source
 0	13	11		subcall move, __move_return
 0	12	13	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_2.nxc"
 0	12	13	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_2.nxc"
-0	13	13		set __turn_7qG2_angle_7qG2_000, 80
+0	13	13		set __turn_7qG2_angle_7qG2_000, 83
 0	12	16	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_2.nxc"
 0	12	16	#line 12 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_2.nxc"
 0	13	16		set __turn_7qG2_power_7qG2_000, 50
@@ -112,7 +112,7 @@ Clump	Line	PC	Source
 0	14	22		subcall turn, __turn_return
 0	13	24	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_2.nxc"
 0	13	24	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_2.nxc"
-0	14	24		set __move_7qG2_distance_7qG2_000, 34
+0	14	24		set __move_7qG2_distance_7qG2_000, 38
 0	13	27	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_2.nxc"
 0	13	27	#line 13 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_2.nxc"
 0	14	27		set __move_7qG2_power_7qG2_000, 75
@@ -148,7 +148,7 @@ Clump	Line	PC	Source
 0	19	55		subcall move, __move_return
 0	18	57	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_2.nxc"
 0	18	57	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_2.nxc"
-0	19	57		set __turn_7qG2_angle_7qG2_000, 80
+0	19	57		set __turn_7qG2_angle_7qG2_000, 83
 0	18	60	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_2.nxc"
 0	18	60	#line 18 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\first_route_2.nxc"
 0	19	60		set __turn_7qG2_power_7qG2_000, 50

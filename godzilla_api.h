@@ -92,3 +92,7 @@ inline int read_distance_US_sensor( const int port_sensor ) {
    return distance;
 }
 
+/* Make the Godzilla Roar
+inline char roar( ) {
+//   return PlayFile( "godzilla_roar.rso" );
+}*/

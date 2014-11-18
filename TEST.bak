@@ -1,0 +1,18 @@
+#include "godzilla_api.h"
+
+task main() {
+
+     SetSensorLowspeed(IN_1);
+     while(true) {
+     if(SensorUS(IN_1) > 20) {
+       move(10, HIGH_POWER, FORWARD);
+     } else {
+       move(10, HIGH_POWER, BACKWARD);
+     }
+     OnFwd(OUT_BC, 50);
+     while(SensorUS(IN_1) > 20);
+     Off(OUT_BC);
+     OnRev(OUT_BC, 100);
+     Wait(800);
+     }
+}

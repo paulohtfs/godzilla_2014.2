@@ -15,8 +15,8 @@
 #define TURN_LEFT -1
 #define TURN_RIGHT 1
 
-#define UP -1
-#define DOWN 1
+#define UP 1
+#define DOWN -1
 
 const float CAR_RADIUS = 8.0;       // Measured in centimeter.
 const float WHEEL_RADIUS = 2.16;     // Measured in centimeter.
@@ -92,3 +92,7 @@ inline int read_distance_US_sensor( const int port_sensor ) {
    return distance;
 }
 
+/* Make the Godzilla Roar */
+inline char roar( ) {
+//   return PlayFile( "godzilla_roar.rso" );
+}

@@ -1,0 +1,362 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0move	6	1	0	4	2
+1	__D0main	6	1	4	4	7
+2	__DF0move	10	1	8	4	2
+3	__DU0SetSensorLowspeed_inline_main	5	1	12	4	2
+4	__D0SetSensorLowspeed_inline_main	6	1	16	4	3
+5	__rotate_theAngle6	5	1	20	4	2
+6	__CLSWMutex0	9	0	24	4	2
+7	__CLSCSMutex0	9	0	28	4	2
+8	__CLSRMutex0	9	0	32	4	2
+9	__RLSBmutex0	9	0	36	4	2
+10	__constValf3P141593	10	0	40	4	1
+11	__signed_stack_001main	6	1	44	4	2
+12	__rotateMutex2	9	0	48	4	2
+13	__rotateMutex0	9	0	52	4	2
+14	__rotateMutex1	9	0	56	4	2
+15	__rotate_angle6	6	1	60	4	4
+16	WHEEL_DIAMETER	10	0	64	4	1
+17	__signed_stack_001move	6	1	68	4	6
+18	__rotate_RotCount6	4	1	72	2	4
+19	__rotate_OldRotCount6	4	1	74	2	2
+20	BOTH_MOTORS	4	0	76	2	1
+21	__move_7qG2_amount_turns_7qG2_000	4	1	78	2	2
+22	__move_7qG2_direction_7qG2_000	4	1	80	2	3
+23	__move_7qG2_distance_7qG2_000	4	1	82	2	3
+24	__move_7qG2_power_7qG2_000	4	1	84	2	3
+25	COMPLETE_TURN	4	0	86	2	1
+26	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	88	1	4
+27	____ResetSensorSubroutine_return	1	1	89	1	3
+28	__constVal96	2	0	90	1	1
+29	____initialize_global_data_return	1	1	91	1	3
+30	__move_return	1	1	92	1	4
+31	__zfmain	1	1	93	1	5
+32	__zfSetSensorLowspeed_inline_main	1	1	94	1	2
+33	__RLSBIterations0	1	1	95	1	4
+34	____ReadLSBytes0_return	1	1	96	1	3
+35	__RLSBResult0	2	1	97	1	7
+36	__RLSBytesCount0	1	1	98	1	7
+37	__ResetSensorTmp	1	1	99	1	2
+38	__rotate_theUF6	1	1	100	1	6
+39	__rotate_turnpct6	2	1	101	1	3
+40	__rotate_stop6	1	1	102	1	2
+41	__rotate_theOM6	1	1	103	1	7
+42	__rotate_theRVP6	1	1	104	1	2
+43	__rotate_theRS6	1	1	105	1	3
+44	__rotate_theRM6	1	1	106	1	4
+45	__rotate_sync6	1	1	107	1	2
+46	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	108	1	2
+47	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	109	1	2
+48	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	110	1	2
+49	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	111	1	2
+50	__rotate_firstPort6	1	1	112	1	5
+51	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	113	1	2
+52	__rotate_power6	1	1	114	1	4
+53	__constVal3	2	0	115	1	2
+54	____RotateMotorVar_return	1	1	116	1	3
+55	____RotateMotor6_return	1	1	117	1	3
+56	__constVal6	2	0	118	1	1
+57	__ResetSensorPort	1	1	119	1	3
+58	__constVal5	2	0	120	1	1
+59	__constVal4	2	0	121	1	1
+60	__constVal0	2	1	122	1	7
+61	__rotate_rs6	1	1	123	1	10
+62	__rotate_theRVD6	1	1	124	1	2
+63	__rotate_theRVI6	1	1	125	1	2
+64	__rotate_thePower6	2	1	126	1	4
+65	__constVal1	2	0	127	1	7
+66	__constVal32	2	0	128	1	4
+67	__rotate_theTurnPct6	2	1	129	1	4
+68	__CLSRArgs0	8	0	4	12	5
+69	__CLSRArgs0.Result	2	1	132	1	5
+70	__CLSRArgs0.Port	1	1	133	1	5
+71	__CLSRArgs0.Buffer	7	0	134	4	5
+72	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+73	__CLSRArgs0.BufferLen	1	1	136	1	5
+74	__CLSWArgs0	8	0	4	12	5
+75	__CLSWArgs0.Result	2	1	140	1	5
+76	__CLSWArgs0.Port	1	1	141	1	5
+77	__CLSWArgs0.Buffer	7	0	142	4	5
+78	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+79	__CLSWArgs0.ReturnLen	1	1	144	1	5
+80	__CLSCSArgs0	8	0	3	4	4
+81	__CLSCSArgs0.Result	2	1	148	1	4
+82	__CLSCSArgs0.Port	1	1	149	1	4
+83	__CLSCSArgs0.BytesReady	1	1	150	1	4
+84	__OUT_BC	7	0	152	4	1
+85	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+86	__OUT_ABC	7	0	154	4	1
+87	__OUT_ABC.__OUT_ABC_type	1	0	0	1	0
+88	__OUT_AB	7	0	156	4	1
+89	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+90	__OUT_AC	7	0	158	4	1
+91	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+92	__RLSLastGoodRead0	7	0	160	4	2
+93	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+94	__RLSBbufLSWrite1	7	0	162	4	1
+95	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+96	__rotate_ports6	7	0	164	4	12
+97	__rotate_ports6.__rotate_ports6_type	1	0	0	1	0
+98	__RLSReadBuf0	7	0	166	4	8
+99	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	4	0	#line 4 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	5	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	4	2	#line 4 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	4	2	#line 4 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	5	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	4	5	#line 4 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	5	5	#line 5 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	6	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	7	#line 3758 "NXCDefs.h"
+0	3759	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3759	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	11	#line 3758 "NXCDefs.h"
+0	3759	11		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	14	#line 3758 "NXCDefs.h"
+0	3759	14		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	17	#line 3758 "NXCDefs.h"
+0	3759	17		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	20	#line 3758 "NXCDefs.h"
+0	3759	20		jmp __004__NXC_Label_37
+0	3758	22	#line 3758 "NXCDefs.h"
+0	3759	22		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	25	#line 3758 "NXCDefs.h"
+0	3759	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	27	#line 3663 "NXCDefs.h"
+0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	31	#line 3663 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3760	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3760	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	36	#line 3759 "NXCDefs.h"
+0	3676	36	#line 3676 "NXCDefs.h"
+0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	40	#line 3676 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3694	40	#line 3694 "NXCDefs.h"
+0	3695	40	#pragma macro 4
+0	3695	40		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6417	44	#line 6417 "NXCDefs.h"
+0	3694	44	#line 3694 "NXCDefs.h"
+0	3761	44	#line 3761 "NXCDefs.h"
+0	5	44	#line 5 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	5	44	#line 5 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	6	44		set __D0main, 1
+0	6	47	#line 6 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	7	47		tst 5, __zfmain, __D0main
+0	6	50	#line 6 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	7	50		brtst 4, __NXC_Label_651, __zfmain
+0	6	53	#line 6 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	7	53	#pragma macro 26
+0	7	53		acquire __RLSBmutex0
+0	7	54		mov __RLSReadBuf0, __RLSBbufLSWrite1
+0	7	56		set __RLSBytesCount0, 1
+0	7	59		wait 15
+0	7	61		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+0	7	63		index __D0main, __RLSReadBuf0, 65535
+0	7	67		release __RLSBmutex0
+0	6431	68	#line 6431 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	6	68	#line 6 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	7	68		mov __signed_stack_001main, __D0main
+0	6	70	#line 6 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	7	70		set __D0main, 20
+0	6	73	#line 6 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	7	73		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	6	77	#line 6 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	7	77		mov __D0main, __zfmain
+0	7	79	#line 7 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	8	79		brtst 4, __NXC_Label_656, __zfmain
+0	7	82	#line 7 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	8	82		set __move_7qG2_distance_7qG2_000, 10
+0	7	85	#line 7 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	7	85	#line 7 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	8	85		set __move_7qG2_power_7qG2_000, 75
+0	7	88	#line 7 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	7	88	#line 7 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	8	88		set __move_7qG2_direction_7qG2_000, 1
+0	7	91	#line 7 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	8	91	#line 8 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	9	91		subcall move, __move_return
+0	8	93	#line 8 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	9	93	#line 9 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	10	93		jmp __NXC_Label_663
+0	9	95	#line 9 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	10	95		set __move_7qG2_distance_7qG2_000, 10
+0	9	98	#line 9 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	9	98	#line 9 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	10	98		set __move_7qG2_power_7qG2_000, 75
+0	9	101	#line 9 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	9	101	#line 9 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	10	101		set __move_7qG2_direction_7qG2_000, -1
+0	9	104	#line 9 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	10	104	#line 10 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	11	104		subcall move, __move_return
+0	10	106	#line 10 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	12	106	#line 12 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	14	106	#line 14 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	15	106		jmp __NXC_Label_650
+0	14	108	#line 14 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+0	15	108		exit -1, -1
+1	4794	0		brtst 4, __rotate_Done6, __rotate_angle6
+1	4795	3		sign __rotate_thePower6, __rotate_angle6
+1	4796	6		abs __rotate_theAngle6, __rotate_angle6
+1	4797	9		mul __rotate_thePower6, __rotate_thePower6, __rotate_power6
+1	4799	13		set __rotate_theUF6, 23
+1	4800	16		brtst 4, __rotate_NoSync6, __rotate_sync6
+1	4801	19		set __rotate_theOM6, 7
+1	4802	22		set __rotate_theRM6, 2
+1	4803	25		mov __rotate_theTurnPct6, __rotate_turnpct6
+1	4804	27		brtst 4, __rotate_Start6, __rotate_theTurnPct6
+1	4805	30		add __rotate_theUF6, __rotate_theUF6, __constVal32
+1	4806	34		jmp __rotate_Start6
+1	4808	36		set __rotate_theOM6, 3
+1	4809	39		set __rotate_theRM6, 0
+1	4810	42		set __rotate_theTurnPct6, 0
+1	4812	45		set __rotate_theRS6, 32
+1	4813	48		setout __rotate_ports6, 1, __rotate_theOM6, 8, __rotate_theRM6, 5, __rotate_theAngle6, 6, __rotate_theRS6, 10, __rotate_theRVP6, 11, __rotate_theRVI6, 12, __rotate_theRVD6, 2, __rotate_thePower6, 7, __rotate_turnpct6, 0, __rotate_theUF6
+1	4816	71		index __rotate_firstPort6, __rotate_ports6, 65535
+1	4818	75		getout __rotate_power6, __rotate_firstPort6, 2
+1	4819	79		brtst 4, __rotate_doneRunning6, __rotate_power6
+1	4820	82		getout __rotate_rs6, __rotate_firstPort6, 6
+1	4821	86		brcmp 4, __rotate_Running6, __rotate_rs6, __constVal32
+1	4823	90		brtst 4, __rotate_Reset6, __rotate_stop6
+1	4825	93		set __rotate_theOM6, 7
+1	4826	96		set __rotate_theUF6, 7
+1	4827	99		setout __rotate_ports6, 1, __rotate_theOM6, 8, __constVal1, 6, __rotate_theRS6, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF6
+1	4829	114		getout __rotate_RotCount6, __rotate_firstPort6, 14
+1	4831	118		mov __rotate_OldRotCount6, __rotate_RotCount6
+1	4832	120		wait 50
+1	4834	122		getout __rotate_RotCount6, __rotate_firstPort6, 14
+1	4835	126		brcmp 5, __rotate_Stabilize6, __rotate_OldRotCount6, __rotate_RotCount6
+1	4836	130		set __rotate_theOM6, 4
+1	4837	133		setout __rotate_ports6, 8, __rotate_theRM6, 6, __constVal0, 1, __rotate_theOM6, 0, __constVal1
+1	4840	144		brtst 4, __rotate_Done6, __rotate_theTurnPct6
+1	4841	147		setout __rotate_ports6, 0, __constVal32
+1	4843	152		subret ____RotateMotor6_return
+2	4854	0		arrsize __rotate_rs6, __rotate_ports6
+2	4855	3		brcmp 1, __rmvCallSub, __rotate_rs6, __constVal1
+2	4857	7		index __rotate_rs6, __rotate_ports6, 65535
+2	4858	11		brcmp 0, __rmvCallSub, __rotate_rs6, __constVal3
+2	4859	15		brcmp 1, __rmvExit, __rotate_rs6, __constVal6
+2	4861	19		mov __rotate_ports6, __OUT_AB
+2	4862	21		brcmp 4, __rmvCallSub, __rotate_rs6, __constVal3
+2	4863	25		mov __rotate_ports6, __OUT_AC
+2	4864	27		brcmp 4, __rmvCallSub, __rotate_rs6, __constVal4
+2	4865	31		mov __rotate_ports6, __OUT_BC
+2	4866	33		brcmp 4, __rmvCallSub, __rotate_rs6, __constVal5
+2	4867	37		mov __rotate_ports6, __OUT_ABC
+2	4869	39		subcall __RotateMotor6, ____RotateMotor6_return
+2	4871	41		subret ____RotateMotorVar_return
+3	4885	0		setin __constVal1, __ResetSensorPort, 5
+3	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+3	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+3	4889	11		subret ____ResetSensorSubroutine_return
+4	5672	0	#pragma macro 25
+4	5672	0		acquire __CLSWMutex0
+4	5672	1		set __CLSWArgs0.Port, 0
+4	5672	4		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+4	5672	6		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+4	5672	8		syscall 21, __CLSWArgs0
+4	5672	11		mov __RLSBResult0, __CLSWArgs0.Result
+4	5672	13		release __CLSWMutex0
+4	5673	14	#line 5673 "NXTDefs.h"
+4	5674	14		brtst 4, __RLSBReturn0, __RLSBytesCount0
+4	5675	17		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+4	5676	21		brtst 5, __RLSBError0, __RLSBResult0
+4	5677	24		set __RLSBIterations0, 4
+4	5679	27	#pragma macro 23
+4	5679	27		acquire __CLSCSMutex0
+4	5679	28		set __CLSCSArgs0.Port, 0
+4	5679	31		syscall 23, __CLSCSArgs0
+4	5679	34		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+4	5679	36		mov __RLSBResult0, __CLSCSArgs0.Result
+4	5679	38		release __CLSCSMutex0
+4	5679	39	#line 5679 "NXTDefs.h"
+4	5680	39		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+4	5681	43		brtst 2, __RLSBError0, __RLSBIterations0
+4	5682	46		brtst 0, __RLSBError0, __RLSBResult0
+4	5683	49		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+4	5685	52		wait 15
+4	5686	54		jmp __RLSBDoCheckStatus0
+4	5689	56	#pragma macro 25
+4	5689	56		acquire __CLSRMutex0
+4	5689	57		set __CLSRArgs0.Port, 0
+4	5689	60		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+4	5689	62		syscall 22, __CLSRArgs0
+4	5689	65		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+4	5689	67		mov __RLSBResult0, __CLSRArgs0.Result
+4	5689	69		release __CLSRMutex0
+4	5689	70	#line 5689 "NXTDefs.h"
+4	5690	70		brtst 5, __RLSBError0, __RLSBResult0
+4	5691	73		mov __RLSLastGoodRead0, __RLSReadBuf0
+4	5692	75		jmp __RLSBDone0
+4	5694	77		mov __RLSReadBuf0, __RLSLastGoodRead0
+4	5696	79		arrsize __RLSBytesCount0, __RLSReadBuf0
+4	5698	82		subret ____ReadLSBytes0_return
+5	52	0	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	52	0	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	52	0	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	52	0	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	53	0		mul __signed_stack_001move, COMPLETE_TURN, __move_7qG2_distance_7qG2_000
+5	52	4	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	52	4	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	52	4	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	53	4		mul __signed_stack_001move, __signed_stack_001move, __move_7qG2_direction_7qG2_000
+5	52	8	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	52	8	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	52	8	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	52	8	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	52	8	#line 52 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	53	8		mul __DF0move, __constValf3P141593, WHEEL_DIAMETER
+5	54	12	#line 54 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	55	12		div __move_7qG2_amount_turns_7qG2_000, __signed_stack_001move, __DF0move
+5	54	16	#line 54 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	54	16	#line 54 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	55	16		mov __signed_stack_001move, __move_7qG2_power_7qG2_000
+5	54	18	#line 54 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	54	18	#line 54 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	55	18		mov __D0move, __move_7qG2_amount_turns_7qG2_000
+5	55	20	#line 55 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	56	20	#pragma macro 22
+5	56	20		acquire __rotateMutex0
+5	56	21		acquire __rotateMutex1
+5	56	22		acquire __rotateMutex2
+5	56	23		arrbuild __rotate_ports6, BOTH_MOTORS
+5	56	27		mov __rotate_power6, __signed_stack_001move
+5	56	29		mov __rotate_angle6, __D0move
+5	56	31		mov __rotate_turnpct6, __constVal0
+5	56	33		mov __rotate_sync6, __constVal0
+5	56	35		mov __rotate_stop6, __constVal1
+5	56	37		mov __rotate_theRVP6, __constVal32
+5	56	39		mov __rotate_theRVI6, __constVal0
+5	56	41		mov __rotate_theRVD6, __constVal96
+5	56	43		subcall __RotateMotorVar, ____RotateMotorVar_return
+5	56	45		release __rotateMutex2
+5	56	46		release __rotateMutex1
+5	56	47		release __rotateMutex0
+5	6142	48	#line 6142 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	55	48	#line 55 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	64	48	#line 64 "C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h"
+5	65	48		subret __move_return
+6	15	0	#line 15 "C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc"
+6	16	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc
+1	__RotateMotor6	111	NXTDefs.h
+2	__RotateMotorVar	265	NXTDefs.h
+3	__ResetSensorSubroutine	308	NXTDefs.h
+4	__ReadLSBytes0	321	NXTDefs.h
+5	move	405	C:\Users\Tomaz Martins\Documents\GitHub\godzilla_2014.2\godzilla_api.h
+6	__initialize_global_data	455	C:\Users\TOMAZM~1\AppData\Local\Temp\temp.nxc
